@@ -40,3 +40,71 @@ body {
   transition: width 0.3s ease;
 }
 
+#progressText {
+  font-size: 18px;
+  color: #a2a9f7;
+}
+
+.task-input {
+  display: flex;
+  margin-top: 20px;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #2c2f4d;
+  color: #fff;
+}
+
+.task-input button {
+  background-color: #636dff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  padding: 0 14px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  background: #222548;
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task span {
+  flex: 1;
+  color: #c7caff;
+  text-decoration: none;
+}
+
+.task.done span {
+  text-decoration: line-through;
+  color: #1de9b6;
+}
+
+.task button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 16px;
+  color: #f77;
+}
